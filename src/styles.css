@@ -1,3 +1,18 @@
 body {
     background-color: green;
 }
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    font-size: 1.5em;
+}
+
+#opening-times-container {
+    text-align: center;
+}

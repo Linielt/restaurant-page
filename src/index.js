@@ -1,6 +1,6 @@
 import "./styles.css";
 import { someVariable } from "./something";
-import { pageload } from "./pageload";
+import { loadHomePage } from "./home";
 
 console.log(someVariable);
-pageload();
+loadHomePage();
